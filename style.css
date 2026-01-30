@@ -1,0 +1,102 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0b0f1a;
+color:white;
+}
+
+header{
+background:#0f172a;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-weight:bold;
+font-size:22px;
+color:#22c55e;
+}
+
+nav a{
+color:white;
+margin-left:18px;
+text-decoration:none;
+}
+
+.section{
+padding:70px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:24px;
+}
+
+.card{
+background:#111827;
+padding:24px;
+border-radius:12px;
+}
+
+.card img{
+width:100%;
+border-radius:10px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 22px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+margin-top:10px;
+}
+
+.btn-primary{background:#2563eb;color:white;}
+.btn-whats{background:#22c55e;color:white;}
+
+.hero{
+padding:110px 20px;
+text-align:center;
+background:linear-gradient(135deg,#0b0f1a,#111c2e);
+}
+
+.hero h1{
+font-size:38px;
+max-width:900px;
+margin:auto;
+}
+
+input, select{
+width:100%;
+padding:12px;
+margin:8px 0;
+border-radius:8px;
+border:none;
+}
+
+footer{
+background:#020617;
+padding:40px;
+text-align:center;
+margin-top:60px;
+}
+
+.whats-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#22c55e;
+padding:16px 18px;
+border-radius:50px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
